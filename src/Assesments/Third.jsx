@@ -11,21 +11,21 @@ const Third = () => {
             valued customers choose us.
             </p>
               <div className='flex items-start gap-4 max-w-xl mt-10'>
-            <div className='bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold'>1</div>
+            <div className='bg-blue-500 text-white rounded-full  w-12 h-10 flex items-center justify-center text-lg font-bold'>1</div>
               <div>
                 <h1 className='font-semibold text-lg text-gray-800 '>Collect Ideas</h1>
                 <p className='text-gray-500'>Nulla vitae elit libero pharetra augue dapibus.Preasent commodo cursus</p>
               </div>
             </div>     
           <div className='flex items-start gap-4 max-w-xl mt-10'>
-            <div className='bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold'>2</div>
+            <div className='bg-blue-500 text-white rounded-full w-12 h-10 flex items-center justify-center text-lg font-bold'>2</div>
               <div>
                 <h1 className='font-semibold text-lg text-gray-800 '>Data Analysis </h1>
                 <p className='text-gray-500'> Nulla vitae elit libero pharetra augue dapibus.Preasent commodo cursus</p>
               </div>
             </div>  
           <div className='flex items-start gap-4 max-w-xl mt-10'>
-            <div className='bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center text-lg font-bold'>3</div>
+            <div className='bg-blue-500 text-white rounded-full w-12 h-10 flex items-center justify-center text-lg font-bold'>3</div>
               <div>
                 <h1 className='font-semibold text-lg text-gray-800 '>Finalize Product</h1>
                 <p className='text-gray-500'>Nulla vitae elit libero pharetra augue dapibus.Preasent commodo cursus</p>
@@ -36,7 +36,7 @@ const Third = () => {
         </div>
         
 
-        <div className='text-center'>
+        <div className='text-center mt-15 md:mt-15'>
             <p className='text-gray-500 '>  Latest Project</p>
             <br />
             <h1 className="font-bold  text-xl md:text-4xl text-gray-900 leading-tight md:ml-10">
@@ -50,4 +50,4 @@ const Third = () => {
   )
 }
 
-export default Third
+export default Third;

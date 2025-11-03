@@ -12,15 +12,15 @@ import { FaArrowLeft } from "react-icons/fa";
 const images=[p10,p11,p12,p13,p14,p15,p16];
 
 const Slick = () => {
-  const NextArrow =({onclick})=>(
+  const NextArrow =({onClick})=>(
     <div
-    onClick={onclick} className='absolute right-[-30px] top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg cursor-pointer hover:bg-gray-100'>
+    onClick={onClick} className='absolute right-[-30px] top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg cursor-pointer hover:bg-gray-100'>
  <FaArrowRight />
 
     </div>  )
-    const PrevArrow =({onclick})=>(
+    const PrevArrow =({onClick})=>(
     <div
-    onClick={onclick} className='absolute left-[-30px] top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg cursor-pointer hover:bg-gray-100'>
+    onClick={onClick} className='absolute left-[-30px] top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg cursor-pointer hover:bg-gray-100'>
 <FaArrowLeft />
     </div>  
     )
@@ -33,25 +33,24 @@ const Slick = () => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     arrows:true,
-    autoplay:false, 
+ 
     responsive:[
       {
         breakpoint:1024,
         settings:{
           slidesToShow:1,
-
         },
       },
-      {
-        breakpoint:768,
+           {
+        breakpoint:640,
         settings:{
           slidesToShow:1,
         },
       },
-    ],
+    ]
   }
   return (
-    <div className='w-3/4 mx-auto mt-10'>
+    <div className=' w-full mx-auto px-4 mt-10'>
       <Slider {...settings}>
         {images.map((image,index)=>(
           <div key={index} className='px-3'>

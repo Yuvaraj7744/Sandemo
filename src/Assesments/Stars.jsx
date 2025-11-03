@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 const Stars = () => {
   return (
     <div className='px-5 mt-50 my-30 font-serif'>
-     <div className='max-w-[1200px] h-[420px] mx-auto px-5 bg-blue-100 rounded-lg relative p-20'>
+     <div className='max-w-[1200px]  h-[560px] mx-auto px-5 bg-blue-100 rounded-lg relative p-20'>
        <div className='hidden md:block absolute bottom-0 left-8'>
         <img src={co} className='h-[500px]' />     
         </div>

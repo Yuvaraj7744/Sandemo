@@ -82,7 +82,7 @@ const Starting = () => {
         <img src={about} className=" w-[400px] md:w-[500px] h-auto rounded-2xl  md:mr-20"   />
       </div>
       <div className="md:w-1/2 ml-10 md:ml-20 mt-10 md:mt-0">
-        <h1 className="font-bold   text-xl md:text-4xl text-gray-900  md:ml-20 ">    We bring solution to make <br />
+        <h1 className="font-bold   text-2xl md:text-4xl text-gray-900  md:ml-20 ">    We bring solution to make <br />
          life easier for out <br />
           customers.</h1>
           <p  className="mt-4  md:ml-20  text-gray-500  md:text-lg">
@@ -97,7 +97,7 @@ const Starting = () => {
           
       </div>
  
-      <div className="grid grid-cols-3  mt-10  md:flex md:gap-30   items-center  gap-10 ml-10  md:ml-50">
+      <div className="grid grid-cols-3  mt-10  lg:flex md:gap-30   items-center  gap-10 ml-5  md:ml-30">
         <img src={c1}  className="w-20 " />
         <img src={c2}  className="w-20"/>
         <img src={c3} className="w-20" />
