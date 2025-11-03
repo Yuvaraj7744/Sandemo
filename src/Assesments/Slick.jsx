@@ -42,7 +42,7 @@ const Slick = () => {
         },
       },
            {
-        breakpoint:640,
+        breakpoint:425,
         settings:{
           slidesToShow:1,
         },
