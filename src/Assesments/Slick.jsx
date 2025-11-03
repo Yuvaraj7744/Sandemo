@@ -9,6 +9,8 @@ import p15 from "../Images/p15.jpg";
 import p16 from "../Images/p16.jpg";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const images=[p10,p11,p12,p13,p14,p15,p16];
 
 const Slick = () => {
@@ -28,14 +30,14 @@ const Slick = () => {
     dots:true,
     infinite:true,
     speed:600,
-    slidesToShow:2,
+    slidesToShow:3,
     slidesToScroll:1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     arrows:true,
  
     responsive:[
-      
+  
            {
         breakpoint:768,
         settings:{
