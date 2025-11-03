@@ -28,7 +28,7 @@ const Slick = () => {
     dots:true,
     infinite:true,
     speed:600,
-    slidesToShow:3,
+    slidesToShow:2,
     slidesToScroll:1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
