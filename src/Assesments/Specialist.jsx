@@ -77,7 +77,7 @@ const Specialist = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows:false,
     responsive: [
@@ -89,17 +89,18 @@ const Specialist = () => {
     <div>
       <div className="flex flex-col lg:flex-row max-w-[1100px] mx-auto px-5 items-center gap-10 my-30 font-serif">
 
-        <div className="flex flex-col justify-start gap-5 md:ml-0">
-          <h2 className="text-gray-500 md:ml-0  md:mt-5 ml-10">Meet the Team</h2>
+        <div className="flex flex-col justify-start md:ml-0">
+          <h2 className="text-gray-500 md:ml-2  md:mt-5 ml-10">Meet the Team</h2>
           <h1 className="font-semibold text-2xl  ml-10 md:text-3xl md:mt-5 md:ml-0 text-gray-800">
             Save your time and money by choosing our professional team.
           </h1>
-          <h2 className="text-gray-500 ml-10 md:ml-0">
+          <h2 className="text-gray-500 ml-10  mt-10 md:ml-0">
             Donec id elit non mi porta gravida at eget metus. Morbi leo risus,
             porta ac consectetur ac, vestibulum at eros tempus porttitor.
           </h2>
-              <button className="rounded-full md:ml-0  bg-blue-600 text-white font-semibold px-8 py-2 hover:bg-blue-700 cursor-pointer" >See all the Members </button>
-
+ <button className="inline-block w-auto rounded-full bg-blue-600 text-white font-semibold px-8 py-3 mt-10  hover:bg-blue-700 transition">
+          See All Members
+        </button>
         </div>
 
         

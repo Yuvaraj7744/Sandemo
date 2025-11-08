@@ -19,7 +19,7 @@ function App() {
     <div className='font-serif'>
     <Starting />
     <Second />
-    <Third />
+     <Third />
     <Slick />
     <Vedio />
     <Specialist />
@@ -31,3 +31,7 @@ function App() {
 }
 
 export default App
+
+
+
+

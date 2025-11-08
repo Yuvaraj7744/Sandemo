@@ -39,7 +39,7 @@ const Footer = () => {
               <p className='text-gray-500 mt-2'>Subscribe to our newsletter to get our news & deals devlivered to you </p>
               <div className='flex flex-rwo items-center gap-2 mt-4'>
               <input type="email " placeholder='Email Address' className='w-full md:w-auto px-4 py-2 border-gray-300 rounded-lg focus:outline-none '/>
-              <button className='bg-blue-700 mt-4 border-blue-700 cursor-pointer  text-white rounded-r-md  px-4 py-2 md:mt-0'>Join </button>
+              <button className='bg-blue-700 mt-4 border-blue-700 cursor-pointer  text-white rounded-r-md  px-3 py-2 md:mt-0'>Join </button>
              </div>    
             </div>
     
